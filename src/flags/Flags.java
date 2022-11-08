@@ -18,15 +18,15 @@ public class Flags {
         List<String> key = new ArrayList<>();
         key.add("green");
         key.add("white");
-        flagsByColor.put(key, "Nigeria");
+        flagsByColor.put(key, "Nigeria");  // 🇳🇬
         findFlag(List.of("green", "white"));
 
         key.add("orange");
-        flagsByColor.put(key, "Ireland");
+        flagsByColor.put(key, "Ireland");  // 🇮🇪
         findFlag(List.of("green", "white", "orange"));
 
         key.add("blue");
-        flagsByColor.put(key, "India");
+        flagsByColor.put(key, "India");    // 🇮🇳
         findFlag(List.of("green", "white", "orange", "blue"));
 
         // --------- Section 2 ---------
