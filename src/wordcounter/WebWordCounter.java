@@ -42,18 +42,21 @@ public class WebWordCounter {
 
 
     public static void main(String [] args) {
-        // Step 1 Create new map for storing word counts
+        // Step 1: Create new map for storing word counts.
+        // - What type are the keys? (Hint: the keys are words.)
+        // - What type are the values? (Hint: the map counts how many times each word occurred.)
 
-        // Step 2: Retrieve the words associated with the data at some URL
-        // Hint: You can use TEST_URL, which contains the constitution.
+        // Step 2: Retrieve the words associated with the data at some URL.
+        // - There is a method for this above. Use it.
+        // - Pass it TEST_URL, which contains the constitution.
 
-        // Step 3: Loop over every word and increment the count of the word by 1.
-        // Make sure to avoid stop words (use isStopWord()))
-        // Hint: You will need to be cautious about detecting if this is the first
-        // time you have seen the word.
+        // Step 3: Loop over every word from the input text and increment the count for that word.
+        // - Do not count stop words (use isStopWord()).
+        // - Hint: You will need to be cautious about detecting if this is the first time you have
+        //   seen the word. What does the get() method return if the key is not present?
 
-        // Step 4: Print out all words and their associated counts for words that
-        // appear greater then some frequence (for example, 5).
+        // Step 4: For all the words that appear more than some threshold (for example, 5),
+        // print out the word and its associated count.
     }
 
 
